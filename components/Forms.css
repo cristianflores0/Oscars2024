@@ -1,0 +1,27 @@
+.list-group-item {
+    font-family: 'Crimson Text', serif;
+  }
+  
+  .list-group-item:hover {
+    border: 2px solid #e1c564; 
+    z-index: 1;
+    
+  }
+
+  h2 {
+    font-family: 'Crimson Text', serif;
+    color:#e1c564;
+
+  }
+
+  .label-text {
+    color: #3498db; /* Set your desired color */
+  }
+
+  .label-background {
+    display: block; /* Set the display property to block */
+    padding: 5px 10px; /* Add padding for better visual appearance */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    margin: 0;
+    padding: 0;
+  }

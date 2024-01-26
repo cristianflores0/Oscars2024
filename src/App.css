@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  background: url('/resources//GettyImages-1459071656.png') center/cover no-repeat;
+  overflow: hidden; /* Hide the overflow to prevent white background issue */
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700 !important;
+  font-family: 'Crimson Text', serif;
+  color: #e1c564 !important;
+  z-index: 1; /* Bring the h1 above the background */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1; /* Bring the content above the background */
+}
